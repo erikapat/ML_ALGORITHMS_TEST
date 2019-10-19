@@ -55,3 +55,6 @@
 
 * Breiman and Cutler Random Forest Regressor
 
+* Bayesian Additive Regression Trees (BART) 
+
+* Bayesian Treed Models
