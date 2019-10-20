@@ -2,6 +2,20 @@
 
 ## List of examples:
 
+** NOTEBOOKS EXAMPLES FOR **
+
+* RuleFit Classifier
+
+* Prediction Rule Ensemble (for interpretable regression)
+
+* Skope Rules (for interpretable classification and clustering)
+
+* Vowpal Wabbit Classifier
+
+* Vowpal Wabbit Low Rank Quadratic Classifier
+
+* Vowpal Wabbit Stagewise Polynomial Classifier
+
 **CLASSIFICATION**
 
 * Binomial GLM (H2O) classification
@@ -40,13 +54,6 @@
 
 * Nystroem Kernel SVM Classifier
 
-* RuleFit Classifier
-
-* Vowpal Wabbit Classifier
-
-* Vowpal Wabbit Low Rank Quadratic Classifier
-
-* Vowpal Wabbit Stagewise Polynomial Classifier
 
 * CatBoost
 
@@ -87,4 +94,38 @@ It works for continous and categorical variables.
 
 * **ITERACTION STRENGTH**
 
+**H-statistic**
 
+One way to estimate the interaction strength is to measure how much of the variation of the prediction depends on the interaction of the features.
+
+It is possible to measure two cases:
+
+1. First, a two-way interaction measure that tells us whether and to what extend two features in the model interact with each other; 
+2. second, a total interaction measure that tells us whether and to what extend a feature interacts in the model with all the other features.
+
+In theory, arbitrary interactions between any number of features can be measured, but these two are the most interesting cases.
+
+**Characteristics**
+
+* The interaction H-statistic takes a long time to compute, because it is computationally expensive.
+
+**Packages and Modules**
+
+The R package iml, which is available on CRAN and on Github. There are other implementations as the R package 'pre' that implements RuleFit and H-statistic. The R package **gbm implements gradient boosted models and H-statistic**.
+
+
+**Alternatives:** N-Way ANOVA, Variable Interaction Networks (VIN) 
+
+**GLOBAL SURROGATE MODELS**
+
+**Packages and Modules**
+
+I used the iml R package for the examples.
+
+**Local Surrogate (LIME)**
+
+**Scoped Rules (Anchors)**
+
+**Shapley Values**
+
+**Example-Based Explanations**
