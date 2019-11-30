@@ -61,3 +61,7 @@ I used the iml R package for the examples.
 **Shapley Values**
 
 **Example-Based Explanations**
+
+**DeepExplainer()**
+
+**TreeExplainer()**
