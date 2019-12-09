@@ -16,6 +16,8 @@ This repo is divided in several topics:
 
 * AUTOML (H20)
 
+****************************************************************
+
 **ON-LINE PREDICTIONS**
 
 * Vowpal Wabbit Classifier
@@ -24,6 +26,8 @@ This repo is divided in several topics:
 
 * Vowpal Wabbit Stagewise Polynomial Classifier
 
+****************************************************************
+
 **RULE PREDICTIONS**
 
 * RuleFit Classifier
@@ -31,6 +35,8 @@ This repo is divided in several topics:
 * Prediction Rule Ensemble (for interpretable regression)
 
 * Skope Rules (for interpretable classification and clustering)
+
+****************************************************************
 
 **INTERPRETABLE ML**
 
