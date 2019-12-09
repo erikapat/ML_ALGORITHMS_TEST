@@ -1,18 +1,14 @@
 
-This repo is divided in several topics:
-    * **AUTOMATIC ML**
-    * **ON-LINE PREDICTIONS**
-    * **RULE PREDICTIONS**
-    * **INTERPRETABLE ML**
-    
 
-**AUTOMATIC ML**
+## List of examples:
 
-* Autokeras
+**RULE PREDICTIONS**
 
-* DEVO
+* RuleFit Classifier
 
-* AUTOML (H20)
+* Prediction Rule Ensemble (for interpretable regression)
+
+* Skope Rules (for interpretable classification and clustering)
 
 **ON-LINE PREDICTIONS**
 
@@ -22,13 +18,55 @@ This repo is divided in several topics:
 
 * Vowpal Wabbit Stagewise Polynomial Classifier
 
-**RULE PREDICTIONS**
+**CLASSIFICATION**
 
-* RuleFit Classifier
+* Binomial GLM (H2O) classification
 
-* Prediction Rule Ensemble (for interpretable regression)
+* Deep neural network classifier (H2O)
 
-* Skope Rules (for interpretable classification and clustering)
+* Dropout Additive Regression Trees Classifier
+
+* Elastic-Net Classifier (L1 / Binomial Deviance)
+
+* Elastic-Net Classifier (L2 / Binomial Deviance)
+
+* Elastic-Net Classifier (mixing alpha=0.5 / Binomial Deviance). Matrix of word-grams occurrences 
+
+* Eureqa Generalized Additive Model Classifier 
+
+* eXtreme Gradient Boosted Trees Classifier with Early Stopping (Fast Feature Binning)
+
+* eXtreme Gradient Boosted Trees Classifier with Early Stopping (Fast Feature Binning) and Unsupervised Learning Features
+
+* Generalized Additive Model
+
+* Gradient Boosted Greedy Trees Classifier with Early Stopping
+
+* Gradient Boosted Trees Classifier
+
+*  H2O GBM Classifier High Bias/Low Variance
+
+* Light Gradient Boosted Trees Classifier with Early Stopping
+
+* Light Gradient Boosting on ElasticNet Predictions
+
+* Majority Class Classifier
+
+* Nystroem Kernel SVM Classifier
+
+* Nystroem Kernel SVM Classifier
+
+
+* CatBoost
+
+
+**REGRESSION**
+
+* Breiman and Cutler Random Forest Regressor
+
+* Bayesian Additive Regression Trees (BART) 
+
+* Bayesian Treed Models
 
 **INTERPRETABLE ML**
 
@@ -93,4 +131,3 @@ I used the iml R package for the examples.
 **Shapley Values**
 
 **Example-Based Explanations**
-
