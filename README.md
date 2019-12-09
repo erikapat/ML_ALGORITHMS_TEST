@@ -1,9 +1,10 @@
 
 This repo is divided in several topics:
-    * **AUTOMATIC ML**
-    * **ON-LINE PREDICTIONS**
-    * **RULE PREDICTIONS**
-    * **INTERPRETABLE ML**
+
+* **AUTOMATIC ML**
+* **ON-LINE PREDICTIONS**
+* **RULE PREDICTIONS**
+* **INTERPRETABLE ML**
     
 
 **AUTOMATIC ML**
