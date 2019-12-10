@@ -58,10 +58,9 @@ I used the iml R package for the examples.
 
 **Scoped Rules (Anchors)**
 
-**Shapley Values**
+**Shapley Values** (**DeepExplainer()**, **TreeExplainer()**)
 
 **Example-Based Explanations**
 
-**DeepExplainer()**
 
-**TreeExplainer()**
+**DALEX**
