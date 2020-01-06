@@ -4,8 +4,11 @@ This repo is divided in several topics:
 * **AUTOMATIC ML**
 * **ON-LINE PREDICTIONS**
 * **RULE PREDICTIONS**
+* **QUANTILE REGRESSION**
 * **INTERPRETABLE ML**
 * **HYPERPARAMETRIZATION**
+* **BAYESIAN MODELS**
+* **Complexity and Learning curves**
     
 ****************************************************************
 
@@ -54,3 +57,16 @@ This repo is divided in several topics:
 
 * Example-Based Explanations**
 
+****************************************************************
+
+**HYPERPARAMETRIZATION**
+
+* HyperOpt
+
+****************************************************************
+
+**QUANTILE REGRESSION**
+
+****************************************************************
+
+**BAYESIAN MODELS**
